@@ -13,7 +13,7 @@ const ArticlesSection = () => {
         maxW="1230px"
         mx="auto"
       >
-        <Text as="h2" mb={8} width={"80%"} mx={"auto"}>
+        <Text as="h2" width={"80%"} mx={"auto"}>
           Latest Articles
         </Text>
       </Flex>
