@@ -1,0 +1,10 @@
+export { default as Logo } from "./logo.png";
+export { default as broccoliChesseSoup } from "./broccoli-cheese-soup.png";
+export { default as crunchWrapSupreme } from "./crunchwrap-supreme.png";
+export { default as girl } from "./girl.png";
+export { default as griledTomatoes } from "./grilled-tomatoes-1-846x846 1.png";
+export { default as heroBg } from "./hero-bg.png";
+export { default as howToGrill } from "./how-to-grill.png";
+export { default as mealPrepIdeas } from "./meal-prep-ideas.png";
+export { default as pizza } from "./pizza.png";
+export { default as postWorkOutMeal } from "./post-workout-meal.png";
