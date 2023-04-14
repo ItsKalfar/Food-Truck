@@ -8,7 +8,7 @@ To get started with the project, follow these steps:
 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/food-truck-landing-page.git
+git clone https://github.com/ItsKalfar/Food-Truck.git
 ```
 
 2. Install dependencies
