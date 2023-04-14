@@ -1,8 +1,8 @@
-#Food Truck Landing Page
+# Food Truck Landing Page
 
 This is a landing page for a Food Truck business built using Next.js, Chakra UI, and SASS.
 
-##Getting Started
+## Getting Started
 To get started with the project, follow these steps:
 
 1. Clone the repository
@@ -26,7 +26,7 @@ yarn run dev
 
 The development server should now be running on http://localhost:3000.
 
-##Technologies Used
+## Technologies Used
 
 - Next.js
 - Chakra UI
