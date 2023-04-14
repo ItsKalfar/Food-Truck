@@ -6,10 +6,14 @@ import {
   FooterSection,
 } from "../components";
 import React from "react";
+import Head from "next/head";
 
 const HomePage = () => {
   return (
     <>
+      <Head>
+        <title>Food Truck</title>
+      </Head>
       <header>
         <Navbar />
         <HeroSection />
