@@ -14,6 +14,7 @@ const ArticleCard = ({ img, title }) => {
       border={"1px solid #444957"}
       borderRadius={"1.5rem"}
       width={"85%"}
+      maxW={{ base: "375px", lg: "381px" }}
       textAlign={"center"}
     >
       <Box mb={"2rem"}>
@@ -32,7 +33,7 @@ const ArticleCard = ({ img, title }) => {
         >
           {title}
         </Heading>
-        <Text mb={4} textAlign={"left"} fontSize={"0.75rem"}>
+        <Text mb={6} textAlign={"left"} className="p2">
           PLorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industrys standard dummy text ever
           since the 1500s, when an unknown printer took a galley....

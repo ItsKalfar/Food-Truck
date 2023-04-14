@@ -14,7 +14,7 @@ const PrimaryBtn = ({ text, px, py, pt, pb, fontSize }) => {
       pb={pb}
       fontSize={fontSize}
       _hover={{
-        bg: "white",
+        bg: "transparent",
         color: "#e23744",
         border: "2px solid #e23744",
       }}

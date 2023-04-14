@@ -8,7 +8,14 @@ import { PrimaryBtn } from "../components";
 const Navbar = () => {
   return (
     <nav className="container">
-      <Flex align="center" justify="space-between" px={2}>
+      <Flex
+        align="center"
+        justify="space-between"
+        px={{ base: "2", md: "8" }}
+        py={{ lg: "8", xl: "6" }}
+        maxW={"1230px"}
+        mx={"auto"}
+      >
         <Box>
           <Link href="/">
             <Image id="nav-logo" src={Logo} alt="food-truck-logo" />

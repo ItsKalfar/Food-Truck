@@ -18,7 +18,9 @@ const HomePage = () => {
         <AboutSection />
         <ArticlesSection />
       </main>
-      <FooterSection />
+      <footer>
+        <FooterSection />
+      </footer>
     </>
   );
 };

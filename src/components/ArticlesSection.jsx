@@ -10,7 +10,7 @@ const ArticlesSection = () => {
         textAlign={"center"}
         align="center"
         justify="space-between"
-        maxW="1230px"
+        maxW={{ base: "375px", lg: "1230px" }}
         mx="auto"
       >
         <Text as="h2" width={"80%"} mx={"auto"}>

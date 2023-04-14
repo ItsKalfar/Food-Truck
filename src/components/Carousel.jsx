@@ -60,19 +60,26 @@ const Carousel = () => {
 
   return (
     <Flex direction="column" align="center">
-      <Box maxW="800px" w="100%" p={4} borderRadius="md" overflow="hidden">
-        <Box
-          display="flex"
+      <Box
+        maxW="1230px"
+        w="100%"
+        mx={"auto"}
+        p={4}
+        borderRadius="md"
+        overflow="hidden"
+      >
+        <Flex
           transition="transform 0.3s ease-out"
           transform={`translateX(-${currentSlide * 100}%)`}
         >
           {slides.map((slide, index) => (
             <Flex
-              direction={"column"}
+              direction={{ base: "column", xl: "row" }}
               alignItems={"center"}
-              justifyContent={"center"}
+              justifyContent={{ base: "center", xl: "space-between" }}
               key={index}
               minWidth="100%"
+              px={"4"}
             >
               {slide.map((slide) => (
                 <ArticleCard
@@ -83,7 +90,7 @@ const Carousel = () => {
               ))}
             </Flex>
           ))}
-        </Box>
+        </Flex>
       </Box>
       <Flex mt={4} textAlign={"center"} justifyContent={"center"}>
         <IconButton
