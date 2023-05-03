@@ -33,4 +33,4 @@ The development server should now be running on http://localhost:3000.
 - SASS
 
 ## Visit Here
-To see the live demo of the website you can [visit here](food-truck-black.vercel.app)
+To see the live demo of the website you can [visit here](https://food-truck-black.vercel.app/)
